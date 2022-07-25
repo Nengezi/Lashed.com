@@ -6,12 +6,12 @@ Product: Lashed.com, a false lash e-commerce store.
 Overview: Lashed.com is a simple eCommerce store that sells magnetic lashes. Users are able to view lashes and add them to the cart. There is also an about page for the company as well as individual product pages for all products. 
 
 **Instructions**
-For the site to run, this software is required:
+* For the site to run, this software is required:
 * MAMP to host the server
 * Node.js
 * Sass
 * Ruby (for Sass to run)
-After hosting the database (SQL file included), the site should work through your server. After that, the site is user-intuitive to use. 
+* After hosting the database (SQL file included), the site should work through your server. After that, the site is user-intuitive to use. 
 
 **Tools Used**
 * PHP - Used to create main site pages.
@@ -26,8 +26,8 @@ After hosting the database (SQL file included), the site should work through you
 * Font Awesome - For fonts.
 
 **Pages and their Functionality/Features**
-Home Page
-The home page is made up of an index.php file that calls to the PHP files that make it up such as:
+ Home Page
+* The home page is made up of an index.php file that calls to the PHP files that make it up such as:
 * header.php - links bootstrap template, Owl Carousel, Font Awesome, CSS file, and function.php.
 * functions.php - requires the page to have database functionality for the use of updating the cart on the navbar. 
  - HTML - Top div and the navigation bar. 
@@ -39,18 +39,18 @@ The home page is made up of an index.php file that calls to the PHP files that m
 * footer.php - Styling of the footer.
 
 Product Page(s)
-The product pages change according to which product you choose. The page product.php calls to header.php, products.php, and footer.php
+* The product pages change according to which product you choose. The page product.php calls to header.php, products.php, and footer.php
 * products.php - Gets product information from the database. Gives add-to-cart button functionality.
  - HTML - page setup and details.
 
 About Us Page
-Company Information page about-us.php calls header.php and footer.php
+* Company Information page about-us.php calls header.php and footer.php
  - HTML is Used to house and input the company information itself.
 
 Cart 
-The cart page is the cart.php page that calls to header.php, cart-template.php, cart_notFound.php, and footer.php
-cart-template.php - Calls database to get product data as well as the add and delete functionality. Subtotal update functionality as well.
-cart_notFound.php - If the cart is not full go to the empty cart page page 
+* The cart page is the cart.php page that calls to header.php, cart-template.php, cart_notFound.php, and footer.php
+* cart-template.php - Calls database to get product data as well as the add and delete functionality. Subtotal update functionality as well.
+* cart_notFound.php - If the cart is not full go to the empty cart page page 
 
 **Features** 
 Home Page - Main page
