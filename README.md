@@ -52,7 +52,7 @@ The cart page is the cart.php page that calls to header.php, cart-template.php, 
 cart-template.php - Calls database to get product data as well as the add and delete functionality. Subtotal update functionality as well.
 cart_notFound.php - If the cart is not full go to the empty cart page page 
 
-**Features**
+**Features** 
 Home Page - Main page
 * Users are able to access the home page through the site name link.
 * Users are able to access the cart through the cart icon.
