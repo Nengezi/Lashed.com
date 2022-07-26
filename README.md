@@ -53,6 +53,7 @@ Cart
 * cart_notFound.php - If the cart is not full go to the empty cart page page 
 
 **Features** 
+
 Home Page - Main page
 * Users are able to access the home page through the site name link.
 * Users are able to access the cart through the cart icon.
