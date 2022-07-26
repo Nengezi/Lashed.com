@@ -1,11 +1,14 @@
 # Lashed.com
+
 Senior Capstone Project.
 
 **Basic functionality/Description**
+
 Product: Lashed.com, a false lash e-commerce store. 
 Overview: Lashed.com is a simple eCommerce store that sells magnetic lashes. Users are able to view lashes and add them to the cart. There is also an about page for the company as well as individual product pages for all products. 
 
 **Instructions**
+
 * For the site to run, this software is required:
 * MAMP to host the server
 * Node.js
@@ -14,6 +17,7 @@ Overview: Lashed.com is a simple eCommerce store that sells magnetic lashes. Use
 * After hosting the database (SQL file included), the site should work through your server. After that, the site is user-intuitive to use. 
 
 **Tools Used**
+
 * PHP - Used to create main site pages.
 * MySQL (PHPMyAdmin) - Used to create a database that is accessed by the site as well as host a server.
 * JavaScript - Used to initiate and edit owl carousel styling and isotope styling.
@@ -26,6 +30,7 @@ Overview: Lashed.com is a simple eCommerce store that sells magnetic lashes. Use
 * Font Awesome - For fonts.
 
 **Pages and their Functionality/Features**
+
  Home Page
 * The home page is made up of an index.php file that calls to the PHP files that make it up such as:
 * header.php - links bootstrap template, Owl Carousel, Font Awesome, CSS file, and function.php.
